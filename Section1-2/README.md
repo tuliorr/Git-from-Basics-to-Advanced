@@ -30,18 +30,21 @@
 * Local
   * It has a simple database that keeps all changes to files under revision control
   * Example: RCS
+  
   ![1.2](/images/local.png)
 
 * Centralized
   * Server holds all history
   * Any problem on the server impacts the progress of the project
   * Example: VS Team Foundation Server, Subversion and Perforce
+  
   ![1.3](/images/centralized.png)
 
 * Distributed
   * Every computer has a copy of the repository
   * Changes are made locally
   * Does not depend on a single computer
+  
   ![1.4](/images/distributed.png)
 
 **1.3 Git**
