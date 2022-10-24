@@ -7,7 +7,7 @@
 * Many people's version-control method of choice is to copy files into another directory. This approach is very common because it is so simple, but it is also incredibly error prone.
   It is easy to forget which directory you're in and accidentally write to the wrong file or copy over files you don't mean to
 
-** 1.1 Functionalities **
+**1.1 Functionalities**
 
 * History
   * Change between versions
@@ -25,7 +25,7 @@
 * Traceability
   * Identify when one or more changes were made
 
-** 1.2 Types of Version Control System (VCS) **
+**1.2 Types of Version Control System (VCS)**
 
 * Local
   * It has a simple database that keeps all changes to files under revision control
@@ -44,7 +44,7 @@
   * Does not depend on a single computer
   ![1.4](/images/distributed.png)
 
-** 1.3 Git **
+**1.3 Git**
 
 * Git is a Distributed VSC created in 2005
 
