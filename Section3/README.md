@@ -40,7 +40,7 @@ Note: to add all existing files in the folder you can use one of the commands:
 
 * To untrack the file use ```git rm --cached <file name>```
 
-**3.4 File Life cycle**
+**3.4 File Life Cycle**
 
 * The file has 4 phases in Git
   * Untracked
@@ -54,7 +54,7 @@ New file ```Untracked``` -> add file ```Staged``` -> commit ```Committed```
 
 ![3.3](/images/cycle1.png)
 
-file modified -> stage file with git add ```Staged``` > commit ```Committed```
+File modified -> stage file with git add ```Staged``` > commit ```Committed```
 
 ![3.4](/images/cycle2.png)
 
