@@ -1,6 +1,6 @@
 ## Section 3 - Basic Commands
 
-** 3.1 User Configuration **
+**3.1 User Configuration**
 
 * Right click and select ```Git Bash Here```
   * With Git Terminal open, type:
@@ -9,7 +9,7 @@
 
 Note: No need to config this every time you use git
 
-** 3.2 Create a local repositorie **
+**3.2 Create a local repositorie**
 
 * ```Git Bash Here``` on folder that you want create a repositorie
 
@@ -17,7 +17,7 @@ Note: No need to config this every time you use git
 
 * This repositorie created will be on master branch
 
-** 3.3 Add changes **
+**3.3 Add changes**
 
 * The ```git status`` command shows current information about the repository, such as:
   * Which branch being used
@@ -40,7 +40,7 @@ Note: to add all existing files in the folder you can use one of the commands:
 
 * To untrack the file use ```git rm --cached <file name>```
 
-** 3.4 File Life cycle **
+**3.4 File Life cycle**
 
 * The file has 4 phases in Git
   * Untracked
@@ -58,7 +58,7 @@ file modified -> stage file with git add ```Staged``` > commit ```Committed```
 
 ![3.4](/images/cycle2.png)
 
-** 3.5 Viewing Changes **
+**3.5 Viewing Changes**
 
 * To to see the difference between a committed file and a modified file use ```git diff``
 
@@ -68,7 +68,7 @@ file modified -> stage file with git add ```Staged``` > commit ```Committed```
 
 ![3.6](/images/diff_cached.png)
 
-** 3.6 Commits History **
+**3.6 Commits History**
 
 * To see the history of commits use ```git log```
 
@@ -88,7 +88,7 @@ file modified -> stage file with git add ```Staged``` > commit ```Committed```
 
 * To see the files that were modified in each commit use ```git log --stat``` or ```git log --shortstat``` to view a summary information
 
-** 3.7 Changing a Commit **
+**3.7 Changing a Commit**
 
 * To change the commit (last one) message use ```git commit --amend -m <"correct message">```
 
@@ -96,7 +96,7 @@ file modified -> stage file with git add ```Staged``` > commit ```Committed```
 
 Note: This commands will create another commit with the correct message/forgot file and will discard the old one (the commit hash will change)
 
-** 3.8 Using previous commits ** 
+**3.8 Using previous commits** 
 
 * To access files referring to previous commits use ```git checkout <commit hash>```
 
@@ -108,7 +108,7 @@ Note: This commands will create another commit with the correct message/forgot f
 
 * When returning to the master, the files will appear again in the folder
 
-** 3.9 Undoing changes **
+**3.9 Undoing changes**
 
 * To revert the file to the latest version use ```git checkout <file name>```
 
@@ -126,7 +126,7 @@ Note 2: Reverts to the last version of the commit, if the file is untracked it w
 
 ** Warning: ** This command will delete all files (if they are new files) or revert all changes (if they are previously committed files) that are staged, not staged and untracked
 
-** 3.10 Bypassing files **
+**3.10 Bypassing files**
 
 In application development, there are files/folders that are automatically generated during runs, that is, they are files that change constantly and do not need to be versioned.
 
@@ -147,21 +147,12 @@ In application development, there are files/folders that are automatically gener
 * Github provides several templates for different languages with files that should be ignored 
   * https://github.com/github/gitignore
 
-* If the file that you want ignore are already added (or tracked) use 
-Se o arquivo que você quer ignorar já estiver adicionado (tracked)
+* If the file that you want ignore are already added (or tracked) use ```git update-index --skip-worktree <file name>```
 
-** 3.11 
+* To reverse this command use ```git update-index --no-skip-worktree <file name>```
 
+**3.11 Cloning Repository**
 
-
-
-
-
-
-** 3. Cloning Repository **
-
-* Use ```git clone <origin folder name> <destination folder name>``` or ```git clone <https link from github>``` to clone from github
+* Use ```git clone <origin folder name> <destination folder name>``` or ```git clone <https link from github>``` to clone from Github
 
 * This command will clone the entire contents of the folder, including the commits history
-
-** 
