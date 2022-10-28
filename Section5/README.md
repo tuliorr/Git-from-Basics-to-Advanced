@@ -4,7 +4,7 @@
 
 * A Branch in the project flow allows features or changes to be developed separately from the ```main``` project branch, which has stable project features
 
-[branches](/images/branches.png)
+[5.1](/images/branches.PNG)
 
 * After new features are tested in separate branch, they can be merged to main branch
 
