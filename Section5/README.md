@@ -4,7 +4,7 @@
 
 * A Branch in the project flow allows features or changes to be developed separately from the ```main``` project branch, which has stable project features
 
-[5.1](/images/branches.PNG)
+![5.1](/images/branches.png)
 
 * After new features are tested in separate branch, they can be merged to main branch
 
@@ -26,7 +26,7 @@ Note: The branch name cannot have spaces
 
 Note: The branches are independent, this is changes made to the branches are contained only in the changed branch, to add to the main branch it is necessary to merge
 
-[5.2](/images/create_branch.png)
+![5.2](/images/create_branch.png)
 
 **5.3 Unsaved Changes**
 
@@ -36,7 +36,7 @@ Note: The branches are independent, this is changes made to the branches are con
 
 Note: this situation only applies to **TRACKED** files
 
-[5.3](/images/change_branch.png)
+![5.3](/images/change_branch.png)
 
 * To do a "clean" branch switch use ```git checkout(or switch) -f <branch_name>```
 
@@ -48,19 +48,19 @@ Note: this situation only applies to **TRACKED** files
 
 *You are in 'detached HEAD' state. You can look around, make experimental changes and commit them, and you can discard any commits you make in this state without impacting any branches by switching back to a branch*
 
-[5.4](/images/checkout_commit.png)
+![5.4](/images/checkout_commit.png)
 
 * So, viewing the flowchart of commits, the most recent commit always points to the previous one and so on. The main branch points to the last commit made
 
 * The head goes along with main, that is, the most recent commit. When a commit is accessed or ```git checkout <commit_hash>```, the head is detached for that accessed commit, that is, you enter in 'detached HEAD' mode, the head is detached from main branch
 
-[5.5](/images/head1.png)
+![5.5](/images/head1.png)
 
 * If a branch is created in this accessed commit (b84f1da), this new branch (zzyyxx) does not interfere with main
 
 * When a commit is done, the HEAD pointer will go to the new branch created (zzyyxx) in the accessed commit (b84f1da), creating a new ramification
 
-[5.6](/images/head2.png)
+![5.6](/images/head2.png)
 
 **5.5 Push a branch to a remote repositorie**
 
