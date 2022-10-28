@@ -1,6 +1,6 @@
 ## Section 5 - Branches
 
-**3.1 Branch Concepts**
+**5.1 Branch Concepts**
 
 * A Branch in the project flow allows features or changes to be developed separately from the ```main``` project branch, which has stable project features
 
@@ -8,7 +8,7 @@
 
 * After new features are tested in separate branch, they can be merged to main branch
 
-**3.2 Create a Local Branch**
+**5.2 Create a Local Branch**
 
 * To list existing branches in the repository use ```git branch``` or ```git branch --list```
 
@@ -28,7 +28,7 @@ Note: The branches are independent, this is changes made to the branches are con
 
 [5.2](/images/create_branch.png)
 
-**3.3 Unsaved Changes**
+**5.3 Unsaved Changes**
 
 * In the example below, I made a change to the index.html file and then switched branches without committing. This change will continue to be identified in the different branch, that is, if I commit it, it will include this change that was supposed to be from the other branch
 
@@ -40,7 +40,7 @@ Note: this situation only applies to **TRACKED** files
 
 * To do a "clean" branch switch use ```git checkout(or switch) -f <branch_name>```
 
-**3.4 Detached Head**
+**5.4 Detached Head**
 
 * When a specific commit is accessed, you are in 'detached HEAD'
 
@@ -62,11 +62,11 @@ Note: this situation only applies to **TRACKED** files
 
 [5.6](/images/head2.png)
 
-**3.5 Push a branch to a remote repositorie**
+**5.5 Push a branch to a remote repositorie**
 
 * To link the branch from the local to the remote repository use ```git push --set-upstream origin <branch_name>``` or ```git push -u origin <branch_name>```
 
-**3.6 Remove branch**
+**5.6 Remove branch**
 
 * To remove a local branch use ```git branch -d <branch_name>``` or ```git branch -D <branch_name>``` (force)
 
@@ -76,7 +76,7 @@ Note: When a branch is deleted, all its history is also deleted
 
 Note: When a remote branch is removed, it continues to exist locally. For example, if someone made a **git clone** before the branch was deleted, it will continue to exist locally on that person's machine, if they do a **git push** the branch will be created again in the remote repository. It's necessary to inform the team that the branch was deleted
 
-**3.7 Rename branch**
+**5.7 Rename branch**
 
 * To rename a branch use:
     * If you're check out the branch use ```git branch -m <new_name>```
@@ -90,6 +90,6 @@ Note: Once a branch is uploaded to the server, it is not possible to change its 
 
 * This sequence of commands creates a new branch with the same content, but with a changed name. That way, it is necessary to inform the team, because someone may be working on the removed branch and if they do a git push, the old branch will be created again
 
-**3.8 Branch history**
+**5.8 Branch history**
 
 * To see the branch history without switch use ```git log <branch_name> --oneline``` or variations of this command
