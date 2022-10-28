@@ -1,5 +1,7 @@
 # Git from Basics to Advanced
 
+This repositorie contains my notes from *Complete Git: from Basic to Advanced* course. It is divided into the follwing sections:
+
 ## Section 1 - Version Control
 
 ## Section 2 - Installation and Configuration
@@ -8,4 +10,6 @@
 
 ## Section 4 - Github
 
-## Section 5 - Bitbucket
+## Section 5 - Branches
+
+## Section 6 - Merge
