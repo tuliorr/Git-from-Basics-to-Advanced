@@ -86,7 +86,7 @@ Note: Once a branch is uploaded to the server, it is not possible to change its 
 
 * If you have the branch locally, you can delete the remote branch, reconnect the branch with the changed name, and do the git push:
 
-```git push --delete origin <branch_name>```  => ```git branch -m <new_name>``` => ```git push -u origin <branch_with_new_name>``
+```git push --delete origin <branch_name>```  => ```git branch -m <new_name>``` => ```git push -u origin <branch_with_new_name>```
 
 * This sequence of commands creates a new branch with the same content, but with a changed name. That way, it is necessary to inform the team, because someone may be working on the removed branch and if they do a git push, the old branch will be created again
 
