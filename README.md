@@ -13,3 +13,13 @@ This repositorie contains my notes from *Complete Git: from Basic to Advanced* c
 ## Section 5 - Branches
 
 ## Section 6 - Merge
+
+## Section 7 - Source Control Management (SCM)
+
+## Section 8 - Tags
+
+## Section 9 - Stash
+
+## Section 10 - Intermediary and Advanced Commands
+
+## Section 11 - Utilities
