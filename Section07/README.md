@@ -16,9 +16,11 @@
 
 * When the version finishes the test phase in the develop branch and is stable, it is merged into the main branch
 
-* This flowchart is an example of how source code control is performed in projects. depending on the project this flowchart can have a different structure
+* This network graph is an example of how source code control is performed in projects. depending on the project this flowchart can have a different structure
 
 ![7.1](/images/scm.png)
+
+* Github provides a visualization of the network graph with all branches too
     
 
 
