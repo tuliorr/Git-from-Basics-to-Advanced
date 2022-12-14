@@ -4,6 +4,8 @@ This repositorie contains my notes from *Complete Git: from Basic to Advanced* c
 
 ## Section 1 - Version Control
 
+## [Section 1 - Version Control](Section01-02/README.md)
+
 ## Section 2 - Installation and Configuration
 
 ## Section 3 - Basic Commands
