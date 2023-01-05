@@ -1,6 +1,6 @@
 # Git from Basics to Advanced
 
-This repositorie contains my notes from *Complete Git: from Basic to Advanced* course. It is divided into the follwing sections:
+This repository contains my notes from the *Complete Git: from Basic to Advanced* course and aims to enhance learning and fix knowledge, as well as being a practice of the knowledge acquired. It is divided into the following sections:
 
 ## [Section 1 - Version Control](Section01-02/README.md)
 
