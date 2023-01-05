@@ -31,3 +31,7 @@
 **Note: the stash can be applied to any branch**
 
 * If the stash is for another branch, this can be created from the stash, using ```git stash branch <branch_name>``` (latest stash) or ```git stash branch <branch_name> stash@{<stash_number>}}``` (to specify the stash)
+
+* To view a summary of the stash use ```git stash show```
+
+* To view the complete stash comparison use ```git stash show -p```
